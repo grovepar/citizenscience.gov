@@ -2,34 +2,10 @@
 layout: base
 ---
 
-{% include home-hero-unit.html %}
+{% include home-hero-unit-alt-1.html %}
 
-<section class="usa-grid usa-section">
-    {% include projects.html %}
-</section>
 
-{% if page.banner-heading %}
-<section class="usa-section banner tagline">
-  <div class="usa-grid">
-    <div class="usa-width-one-whole usa-end-row">
-      <h2>{{ page.banner-heading }}</h2>
-      {% if page.banner-text %}
-        <p>{{ page.banner-text }}
-          <a class="card-read" href="{{ site.baseurl }}/about/">
-        Read more
-        <span class="usa-sr-only">about {{ project.title }}</span>
-      </a>
-        </p>
-      {% endif %}
-      {% if page.banner-button-text %}
-      <div class="center-content">
-        <a href="{{ page.banner-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner-button-text }}</a>
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</section>
-{% endif %}
+
 
 
 {% comment %}

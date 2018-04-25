@@ -1,9 +1,9 @@
 ---
-layout: home
+layout: home-alt-1
 body-class: home
-permalink: /
+permalink: /home-alt-1/
 hero-image: /assets/img/hero-image.jpg
-hero-text: "Helping federal agencies accelerate innovation through public participation. "
+hero-text: "Helping federal agencies accelerate innovation through crowdsourcing and citizen science. "
 hero-button-text: Learn more
 hero-button-link: /about/
 banner-heading: Citizenscience.gov is an official government website designed to accelerate the use of crowdsourcing and citizen science across the U.S. government.
