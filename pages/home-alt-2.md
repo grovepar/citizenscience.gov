@@ -10,5 +10,7 @@ banner-heading: Citizenscience.gov is an official government website designed to
 banner-text: In citizen science, the public participates voluntarily in the scientific process, addressing real-world problems.
 banner-button-text: 
 banner-button-link: /about/
+learn-link: /home-alt-2-learn/
+build-link: /home-alt-2-build/
 ---
 
