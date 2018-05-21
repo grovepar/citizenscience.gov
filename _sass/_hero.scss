@@ -24,10 +24,6 @@
   padding-left: .3em;
   padding-right: .3em;
 }
-.hero-content .usa-button {
-  font-size: 22px;
-  line-height: 30px;
-}
 
 
 @media (max-width: 646px) {
@@ -91,6 +87,56 @@
   padding-top: 0px;
   bottom: 40px;
 }
+
+.alt-2-button {
+  width: 273.86px;
+}
+
+
+
+/* alt-3 styles */
+
+
+/* If the screen size is 1360px or more */
+@media (min-width: 1360px){
+  .alt-3-button {
+    font-size: 26px;
+  }
+  .alt-2-button {
+    font-size: 30px;
+    padding: 30px;
+  }
+
+}
+
+/* If the screen size is 1360px or less */
+@media (max-width: 1359px){
+  .alt-3-button {
+    font-size: 20px;
+  }
+  .alt-home-button{
+    padding: 20px;
+  }
+  .alt-2-button {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
